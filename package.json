@@ -1,0 +1,20 @@
+{
+    "name": "48-grupe-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "number": "node --watch kintamieji/number.js",
+        "number-nodemon": "nodemon kintamieji/number.js",
+        "dev": "nodemon index.js",
+        "fail": "node --watch index.js",
+        "demo": "echo \"Demo print\" && exit 0",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Rimantas (https://github.com/belauzas)",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}
